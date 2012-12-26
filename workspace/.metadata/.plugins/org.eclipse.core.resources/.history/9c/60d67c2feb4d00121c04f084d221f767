@@ -1,0 +1,12 @@
+Button Add Verify
+Button Edit Verify
+Label "Count it Out" Verify
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText Names
+Input "Counter Name" Tap
+Input "Counter Name" EnterText Brandy enter
+Input Increment Tap
+Input Increment EnterText 1
+Button Save Tap

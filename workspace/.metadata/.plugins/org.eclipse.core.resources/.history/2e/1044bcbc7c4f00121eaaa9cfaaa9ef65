@@ -1,0 +1,12 @@
+# a basic count up task
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText "Kissing Challenge"
+Input "Counter Name" Tap
+Input "Counter Name" EnterText "Girls Kissed"
+Table "Empty list" ScrollToRow 1
+Input "Max Value" Tap
+Input Increment Tap
+Input Increment EnterText 1
+Button Save Tap

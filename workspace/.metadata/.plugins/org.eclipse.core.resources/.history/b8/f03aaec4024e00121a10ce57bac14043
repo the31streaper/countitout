@@ -1,0 +1,7 @@
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText Basketball
+Input "Counter Name" EnterText Goals
+Input Increment EnterText 2 enter
+Button Save Tap

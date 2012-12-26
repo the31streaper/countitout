@@ -1,0 +1,5 @@
+# Validates elements on initial view
+.UINavigationBar "Count it Out" Verify
+Button Edit Verify
+Button Add Verify
+Label "Hit '+' to get started" Verify

@@ -1,0 +1,5 @@
+INDEX VERSION 1.122+/Users/michaelhowell/Desktop/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+508129413.index
+2148127429.index
+522529589.index
+2866138285.index

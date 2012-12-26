@@ -1,0 +1,13 @@
+# a basic count up task
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText Baseball
+Input "Counter Name" Tap
+Input "Counter Name" EnterText Runs
+Table "Empty list" ScrollToRow 1 1
+Input "Max Value" Tap
+Input "Max Value" EnterText 53
+Input Increment Tap
+Input Increment EnterText 1
+Button Save Tap

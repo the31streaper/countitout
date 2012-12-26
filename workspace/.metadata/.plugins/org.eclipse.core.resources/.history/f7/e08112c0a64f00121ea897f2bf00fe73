@@ -1,0 +1,10 @@
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText "Dogs" enter
+Input "Counter Name" Tap
+Input "Counter Name" EnterText "Dogs" enter
+Table "Empty list" ScrollToRow 1
+Input Increment Tap
+Input Increment EnterText 1
+Button Save Tap

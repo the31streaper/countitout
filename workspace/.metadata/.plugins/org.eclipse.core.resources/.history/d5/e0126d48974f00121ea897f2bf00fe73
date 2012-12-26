@@ -1,0 +1,17 @@
+# BASIC COUNTUP
+UINavigationBar "Count it Out" Verify
+Button Edit Verify
+Button Add Verify
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText Kiss
+Input "Counter Name" Tap
+Input "Counter Name" EnterText "Girls Smooched"
+Table "Empty list" ScrollToRow 1
+Input Increment Tap
+Input Increment EnterText 1
+Button Save Tap
+UINavigationBar "Count it Out" Verify
+Button Edit Verify
+Button Add Verify

@@ -1,0 +1,16 @@
+# Basic count down test
+Button Add Tap
+Table "Empty list" Select CountDown
+Input "Group Name" Tap
+Input "Group Name" EnterText 2014
+Input "Counter Name" Tap
+Input "Counter Name" EnterText "Days Til New Year"
+Table "Empty list" ScrollToRow 1
+Input "Starting Value" Tap
+Input "Starting Value" EnterText 365
+Input Decrement Tap
+Input Decrement EnterText 1
+Button Save Tap
+.UINavigationBar "Count it Out" Verify
+Button Edit Verify
+Button Add Verify

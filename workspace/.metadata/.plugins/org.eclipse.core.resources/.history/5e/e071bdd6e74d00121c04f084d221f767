@@ -1,0 +1,10 @@
+BUtton Add Verify "+"
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText Baseball
+Input "Counter Name" Tap
+Input "Counter Name" EnterText Runs enter
+Input Increment Tap
+Input Increment EnterText 1
+Button Save Tap

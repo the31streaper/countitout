@@ -1,0 +1,4 @@
+# a basic count up task
+Button Add Tap
+.UINavigationBar "New Counter" Verify
+Button "Count it Out" Verify

@@ -1,0 +1,8 @@
+# Basic count down test
+Button Add Tap
+Table "Empty list" Select CountDown
+Input "Group Name" EnterText 2014
+Input "Counter Name" EnterText "Days Until New Year"
+Input "Starting Value" EnterText 365
+Input Decrement EnterText 1
+Button Save Tap

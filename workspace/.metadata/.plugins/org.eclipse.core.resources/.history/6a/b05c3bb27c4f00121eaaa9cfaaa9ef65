@@ -1,0 +1,8 @@
+# a basic count up task
+Button Add Tap
+Table "Empty list" Select CountUp
+Input "Group Name" EnterText Hootchie
+Input "Counter Name" EnterText Runs
+Input "Max Value" EnterText 53
+Input Increment EnterText 1
+Button Save Tap

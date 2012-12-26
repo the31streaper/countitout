@@ -1,0 +1,9 @@
+# a basic count up task
+Button Add Tap
+.UINavigationBar "New Counter" Verify
+Button "Count it Out" Verify
+Table "Empty list" Select CountUp
+Input "Group Name" EnterText Baseball
+Input "Counter Name" EnterText Runs
+Input Increment EnterText 1
+Button Save Tap

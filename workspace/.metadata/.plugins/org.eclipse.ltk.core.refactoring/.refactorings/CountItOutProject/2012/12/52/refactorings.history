@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CountItOutProject/MyFirstTest.mt&apos; to &apos;InitialView.mt&apos;" description="Rename resource &apos;MyFirstTest.mt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="MyFirstTest.mt" name="InitialView.mt" stamp="1356374577562" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;CountItOutProject/TestNum1.mt&apos; to &apos;CountUpOneParameter.mt&apos;" description="Rename resource &apos;TestNum1.mt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="TestNum1.mt" name="CountUpOneParameter.mt" stamp="1356377407995" updateReferences="true"/>
+</session>
