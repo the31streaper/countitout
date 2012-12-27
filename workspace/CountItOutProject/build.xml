@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="countitout" xmlns:monkeytalk="antlib:com.gorillalogic.monkeytalk.ant">
+    <target name="Suite">
+        <monkeytalk:run agent="iOS" script="CountItOutTestSuite.mts" />
+    </target>
+</project>

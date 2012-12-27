@@ -630,3 +630,19 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/micha
 
 !ENTRY org.eclipse.core.net 1 0 2012-12-26 14:58:09.604
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2012-12-27 11:54:32.110
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at org.eclipse.wst.jsdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:38)
+	at org.eclipse.wst.jsdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:615)
+	at org.eclipse.wst.jsdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:440)
+	at org.eclipse.wst.jsdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:432)
+	at org.eclipse.wst.jsdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:522)
+	at org.eclipse.wst.jsdt.internal.core.index.Index.save(Index.java:190)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:645)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:687)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:472)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:376)
+	at java.lang.Thread.run(Thread.java:680)
