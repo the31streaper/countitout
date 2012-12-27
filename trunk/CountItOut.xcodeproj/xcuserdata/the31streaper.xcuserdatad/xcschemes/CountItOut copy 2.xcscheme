@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9F04975B168901DC00136753"
-               BuildableName = "CountItOut.app"
+               BuildableName = "CountItOut copy.app"
                BlueprintName = "CountItOut copy"
                ReferencedContainer = "container:CountItOut.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F04975B168901DC00136753"
-            BuildableName = "CountItOut.app"
+            BuildableName = "CountItOut copy.app"
             BlueprintName = "CountItOut copy"
             ReferencedContainer = "container:CountItOut.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F04975B168901DC00136753"
-            BuildableName = "CountItOut.app"
+            BuildableName = "CountItOut copy.app"
             BlueprintName = "CountItOut copy"
             ReferencedContainer = "container:CountItOut.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F04975B168901DC00136753"
-            BuildableName = "CountItOut.app"
+            BuildableName = "CountItOut copy.app"
             BlueprintName = "CountItOut copy"
             ReferencedContainer = "container:CountItOut.xcodeproj">
          </BuildableReference>
