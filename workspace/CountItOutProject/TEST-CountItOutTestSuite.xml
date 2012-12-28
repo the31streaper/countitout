@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="CountItOutTestSuite" tests="4" suites="0" errors="0" failures="0" skipped="0" time="29.505">
-	<testcase name="InitialView.mt" time="2.066" />
-	<testcase name="CountUpBasic.mt" time="8.378" />
-	<testcase name="AnotherTest.mt" time="9.778" />
-	<testcase name="CountDownBasic.mt" time="9.283" />
+<testsuite name="CountItOutTestSuite" tests="4" suites="0" errors="0" failures="1" skipped="0" time="31.550">
+	<testcase name="InitialView.mt" time="4.197">
+		<failure message="No Label found with monkeyID 'Hit '+' to get started'" type="test.run"><![CDATA[No Label found with monkeyID 'Hit '+' to get started'
+  at Label "Hit '+' to get started" Verify (InitialView.mt : cmd #5)
+  at Test InitialView.mt Run (CountItOutTestSuite.mts : cmd #1)]]></failure>
+	</testcase>
+	<testcase name="CountUpBasic.mt" time="8.270" />
+	<testcase name="AnotherTest.mt" time="9.789" />
+	<testcase name="CountDownBasic.mt" time="9.294" />
 </testsuite>
