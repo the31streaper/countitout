@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="CountItOutTestSuite" tests="4" suites="0" errors="0" failures="0" skipped="0" time="30.277">
-	<testcase name="InitialView.mt" time="2.105" />
-	<testcase name="CountUpBasic.mt" time="9.026" />
-	<testcase name="AnotherTest.mt" time="9.844" />
-	<testcase name="CountDownBasic.mt" time="9.302" />
-</testsuite>
