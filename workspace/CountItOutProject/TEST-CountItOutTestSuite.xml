@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="CountItOutTestSuite" tests="4" suites="0" errors="4" failures="0" skipped="0" time="0.065">
-	<testcase name="InitialView.mt" time="0.028">
+<testsuite name="CountItOutTestSuite" tests="4" suites="0" errors="4" failures="0" skipped="0" time="0.067">
+	<testcase name="InitialView.mt" time="0.029">
 		<error message="Unable to send command to http://localhost:16863/fonemonkey: Connection refused" type="test.run"><![CDATA[Unable to send command to http://localhost:16863/fonemonkey: Connection refused
   at .UINavigationBar "Count it Out" Verify (InitialView.mt : cmd #2)
   at Test InitialView.mt Run (CountItOutTestSuite.mts : cmd #1)]]></error>
 	</testcase>
-	<testcase name="CountUpBasic.mt" time="0.012">
+	<testcase name="CountUpBasic.mt" time="0.011">
 		<error message="Unable to send command to http://localhost:16863/fonemonkey: Connection refused" type="test.run"><![CDATA[Unable to send command to http://localhost:16863/fonemonkey: Connection refused
   at Button Add Tap (CountUpBasic.mt : cmd #2)
   at Test CountUpBasic.mt Run (CountItOutTestSuite.mts : cmd #2)]]></error>
@@ -15,7 +15,7 @@
   at UINavigationBar "Count it Out" Verify (AnotherTest.mt : cmd #2)
   at Test AnotherTest.mt Run (CountItOutTestSuite.mts : cmd #3)]]></error>
 	</testcase>
-	<testcase name="CountDownBasic.mt" time="0.009">
+	<testcase name="CountDownBasic.mt" time="0.011">
 		<error message="Unable to send command to http://localhost:16863/fonemonkey: Connection refused" type="test.run"><![CDATA[Unable to send command to http://localhost:16863/fonemonkey: Connection refused
   at Button Add Tap (CountDownBasic.mt : cmd #2)
   at Test CountDownBasic.mt Run (CountItOutTestSuite.mts : cmd #4)]]></error>
