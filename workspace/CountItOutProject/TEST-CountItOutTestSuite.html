@@ -42,45 +42,56 @@ function tog(id) {
 <li class="suite">
 <ul>
 <li id="suite-name">CountItOutTestSuite.mts</li>
-<li id="suite-tests">4 tests (0 errors, <span class="err">1 failure</span>, 0 skipped)</li>
-<li>time: 31.550s</li>
+<li id="suite-tests">4 tests (<span class="err">4 errors</span>, 0 failures, 0 skipped)</li>
+<li>time: 0.065s</li>
 </ul>
 </li>
 
 <li class="test">
 <a id="link0" href="javascript:tog('0');" class="closed">InitialView.mt</a>
-<div class="result failure">FAILURE</div>
+<div class="result error">ERROR</div>
 <ul id="test0" style="display:none;">
-<li>time: 4.197s</li>
-<li><pre>No Label found with monkeyID 'Hit '+' to get started'
-  at Label "Hit '+' to get started" Verify (InitialView.mt : cmd #5)
+<li>time: 0.028s</li>
+<li><pre>Unable to send command to http://localhost:16863/fonemonkey: Connection refused
+  at .UINavigationBar "Count it Out" Verify (InitialView.mt : cmd #2)
   at Test InitialView.mt Run (CountItOutTestSuite.mts : cmd #1)
 </pre></li>
-<li>screenshot:<br /><img src="screenshots/screenshot_2012-12-27_141943.png" title="screenshot_2012-12-27_141943.png" /></li>
 </ul>
 </li>
 
 <li class="test">
 <a id="link1" href="javascript:tog('1');" class="closed">CountUpBasic.mt</a>
-<div class="result ok">OK</div>
+<div class="result error">ERROR</div>
 <ul id="test1" style="display:none;">
-<li>time: 8.270s</li>
+<li>time: 0.012s</li>
+<li><pre>Unable to send command to http://localhost:16863/fonemonkey: Connection refused
+  at Button Add Tap (CountUpBasic.mt : cmd #2)
+  at Test CountUpBasic.mt Run (CountItOutTestSuite.mts : cmd #2)
+</pre></li>
 </ul>
 </li>
 
 <li class="test">
 <a id="link2" href="javascript:tog('2');" class="closed">AnotherTest.mt</a>
-<div class="result ok">OK</div>
+<div class="result error">ERROR</div>
 <ul id="test2" style="display:none;">
-<li>time: 9.789s</li>
+<li>time: 0.016s</li>
+<li><pre>Unable to send command to http://localhost:16863/fonemonkey: Connection refused
+  at UINavigationBar "Count it Out" Verify (AnotherTest.mt : cmd #2)
+  at Test AnotherTest.mt Run (CountItOutTestSuite.mts : cmd #3)
+</pre></li>
 </ul>
 </li>
 
 <li class="test">
 <a id="link3" href="javascript:tog('3');" class="closed">CountDownBasic.mt</a>
-<div class="result ok">OK</div>
+<div class="result error">ERROR</div>
 <ul id="test3" style="display:none;">
-<li>time: 9.294s</li>
+<li>time: 0.009s</li>
+<li><pre>Unable to send command to http://localhost:16863/fonemonkey: Connection refused
+  at Button Add Tap (CountDownBasic.mt : cmd #2)
+  at Test CountDownBasic.mt Run (CountItOutTestSuite.mts : cmd #4)
+</pre></li>
 </ul>
 </li>
 
