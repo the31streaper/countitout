@@ -30,6 +30,10 @@
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		4759DB5316923B1700DBB18D /* libMonkeyTalk-1.0.30.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759DB5216923B1700DBB18D /* libMonkeyTalk-1.0.30.a */; };
+		4759DB5516923B2800DBB18D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759DB5416923B2800DBB18D /* QuartzCore.framework */; };
+		4759DB5716923B3400DBB18D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759DB5616923B3400DBB18D /* libsqlite3.dylib */; };
+		4759DB5916923B4E00DBB18D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759DB5816923B4E00DBB18D /* CFNetwork.framework */; };
 		9F04975D168901DC00136753 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		9F04975E168901DC00136753 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		9F04975F168901DC00136753 /* NewCounterSelectType.xib in Resources */ = {isa = PBXBuildFile; fileRef = 057148161080112B00CC18A7 /* NewCounterSelectType.xib */; };
@@ -101,6 +105,10 @@
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4759DB5216923B1700DBB18D /* libMonkeyTalk-1.0.30.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMonkeyTalk-1.0.30.a"; sourceTree = "<group>"; };
+		4759DB5416923B2800DBB18D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4759DB5616923B3400DBB18D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4759DB5816923B4E00DBB18D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* CountItOut-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CountItOut-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9F04974F168901C600136753 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
 		9F049750168901C600136753 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = "Resources-iPad/RootViewController.xib"; sourceTree = "<group>"; };
@@ -108,7 +116,7 @@
 		9F049752168901C600136753 /* CountDownView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CountDownView.xib; path = "Resources-iPad/CountDownView.xib"; sourceTree = "<group>"; };
 		9F049753168901C600136753 /* CountUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CountUpView.xib; path = "Resources-iPad/CountUpView.xib"; sourceTree = "<group>"; };
 		9F049754168901C600136753 /* NameValueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NameValueCell.xib; path = "Resources-iPad/NameValueCell.xib"; sourceTree = "<group>"; };
-		9F049779168901DC00136753 /* CountItOut copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountItOut copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F049779168901DC00136753 /* CountItOut Monkeytalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountItOut Monkeytalk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F04977E168901FB00136753 /* my_first.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_first.feature; sourceTree = "<group>"; };
 		9F049780168901FB00136753 /* launch_steps.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = launch_steps.rb; sourceTree = "<group>"; };
 		9F049782168901FB00136753 /* env.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
@@ -144,10 +152,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4759DB5916923B4E00DBB18D /* CFNetwork.framework in Frameworks */,
+				4759DB5716923B3400DBB18D /* libsqlite3.dylib in Frameworks */,
+				4759DB5516923B2800DBB18D /* QuartzCore.framework in Frameworks */,
 				9F049772168901DC00136753 /* Foundation.framework in Frameworks */,
 				9F049773168901DC00136753 /* UIKit.framework in Frameworks */,
 				9F049774168901DC00136753 /* CoreGraphics.framework in Frameworks */,
 				9F049775168901DC00136753 /* CoreData.framework in Frameworks */,
+				4759DB5316923B1700DBB18D /* libMonkeyTalk-1.0.30.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* CountItOut.app */,
-				9F049779168901DC00136753 /* CountItOut copy.app */,
+				9F049779168901DC00136753 /* CountItOut Monkeytalk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +232,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4759DB5816923B4E00DBB18D /* CFNetwork.framework */,
+				4759DB5616923B3400DBB18D /* libsqlite3.dylib */,
+				4759DB5416923B2800DBB18D /* QuartzCore.framework */,
+				4759DB5216923B1700DBB18D /* libMonkeyTalk-1.0.30.a */,
 				9F87EE8F168E148B00D6CABB /* Default-568h@2x.png */,
 				9F04977C168901FB00136753 /* Frank */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -348,9 +364,9 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* CountItOut.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F04975B168901DC00136753 /* CountItOut copy */ = {
+		9F04975B168901DC00136753 /* CountItOut Monkeytalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F049776168901DC00136753 /* Build configuration list for PBXNativeTarget "CountItOut copy" */;
+			buildConfigurationList = 9F049776168901DC00136753 /* Build configuration list for PBXNativeTarget "CountItOut Monkeytalk" */;
 			buildPhases = (
 				9F04975C168901DC00136753 /* Resources */,
 				9F049768168901DC00136753 /* Sources */,
@@ -360,9 +376,9 @@
 			);
 			dependencies = (
 			);
-			name = "CountItOut copy";
+			name = "CountItOut Monkeytalk";
 			productName = CountItOut;
-			productReference = 9F049779168901DC00136753 /* CountItOut copy.app */;
+			productReference = 9F049779168901DC00136753 /* CountItOut Monkeytalk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -389,7 +405,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* CountItOut */,
-				9F04975B168901DC00136753 /* CountItOut copy */,
+				9F04975B168901DC00136753 /* CountItOut Monkeytalk */,
 			);
 		};
 /* End PBXProject section */
@@ -525,16 +541,17 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CountItOut_Prefix.pch;
-				INFOPLIST_FILE = "CountItOut copy2-Info.plist";
+				INFOPLIST_FILE = "CountItOut Monkeytalk-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRANK_LIBRARY_SEARCH_PATHS)",
+					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"$(FRANK_LDFLAGS)",
+					"-all_load",
+					"-lstdc++",
 				);
-				PRODUCT_NAME = "CountItOut copy";
+				PRODUCT_NAME = "CountItOut Monkeytalk";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -546,8 +563,16 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CountItOut_Prefix.pch;
-				INFOPLIST_FILE = "CountItOut copy2-Info.plist";
-				PRODUCT_NAME = "CountItOut copy";
+				INFOPLIST_FILE = "CountItOut Monkeytalk-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "CountItOut Monkeytalk";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -590,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F049776168901DC00136753 /* Build configuration list for PBXNativeTarget "CountItOut copy" */ = {
+		9F049776168901DC00136753 /* Build configuration list for PBXNativeTarget "CountItOut Monkeytalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F049777168901DC00136753 /* Debug */,
