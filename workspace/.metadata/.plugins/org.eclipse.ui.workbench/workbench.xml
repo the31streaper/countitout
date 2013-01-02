@@ -10,12 +10,12 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="106" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" itemType="typeToolBarContribution" x="242" y="22"/>
+<coolItem id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" itemType="typePlaceholder" x="242" y="22"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -26,24 +26,15 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" name="CountItOutTestSuite.mts" partName="CountItOutTestSuite.mts" path="/Users/michaelhowell/countitout/workspace/CountItOutProject/CountItOutTestSuite.mts" title="CountItOutTestSuite.mts" tooltip="CountItOutProject/CountItOutTestSuite.mts" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CountItOutProject/CountItOutTestSuite.mts"/>
-</editor>
-<editor id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" name="CountDownBasic.mt" partName="CountDownBasic.mt" path="/Users/michaelhowell/countitout/workspace/CountItOutProject/CountDownBasic.mt" title="CountDownBasic.mt" tooltip="CountItOutProject/CountDownBasic.mt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CountItOutProject/CountDownBasic.mt"/>
+<editor activePart="true" focus="true" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" name="CountItOutTestSuite.mts" partName="CountItOutTestSuite.mts" title="CountItOutTestSuite.mts" tooltip="/Users/the31streaper/countitout/workspace/CountItOutProject/CountItOutTestSuite.mts" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/the31streaper/countitout/workspace/CountItOutProject/CountItOutTestSuite.mts"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
 <viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
 </view>
@@ -54,7 +45,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" activePerspective="com.gorillalogic.monkeytalk.ide.TestPerspective">
+<perspectives activePart="org.eclipse.jdt.junit.ResultView" activePerspective="com.gorillalogic.monkeytalk.ide.TestPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.gorillalogic.monkeyconsole.perspectives.TestPerspective" id="com.gorillalogic.monkeytalk.ide.TestPerspective" label="MonkeyTalk"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -68,19 +59,16 @@
 <new_wizard_action id="com.gorillalogic.monkeyconsole.wizard.NewTestSuiteWizard"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="com.gorillalogic.monkeyconsole.componentview.ui.UIContainerView"/>
 <view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="com.gorillalogic.monkeyconsole.componentview.ui.UIContainerView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@45de530a" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
@@ -118,6 +106,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" path="/CountItOutProject/CountDownBasic.mt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" path="/CountItOutProject/IncrementTest.mt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/CountItOutProject/CountDownBasic.mt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" path="/CountItOutProject/CountItOutTestSuite.mts"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" path="/CountItOutProject/CountDownBasic.mt"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" uri="file:/Users/the31streaper/countitout/workspace/CountItOutProject/CountItOutTestSuite.mts"/>
 </editors>
 <item historyLabel="InitialView.mt" index="0"/>
 <item historyLabel="CountDownBasic.mt" index="1"/>
@@ -147,9 +138,14 @@
 <item historyLabel="CountItOutTestSuite.mts" index="5"/>
 <item historyLabel="CountItOutTestSuite.mts" index="5"/>
 <item historyLabel="IncrementTest.mt" index="7"/>
-<item active="true" historyLabel="CountDownBasic.mt" index="8">
+<item historyLabel="CountDownBasic.mt" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
+<item historyLabel="CountItOutTestSuite.mts" index="9"/>
+<item historyLabel="CountDownBasic.mt" index="10"/>
+<item historyLabel="CountItOutTestSuite.mts" index="9"/>
+<item historyLabel="CountDownBasic.mt" index="10"/>
+<item active="true" historyLabel="CountItOutTestSuite.mts" index="11"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -167,6 +163,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.gorillalogic.monkeyconsole.editors.FoneMonkeyTestEditor" name="CountItOutTestSuite.mts" tooltip="/Users/the31streaper/countitout/workspace/CountItOutProject/CountItOutTestSuite.mts">
+<persistable uri="file:/Users/the31streaper/countitout/workspace/CountItOutProject/CountItOutTestSuite.mts"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="TEST-CountItOutTestSuite.html" tooltip="CountItOutProject/reports/TEST-CountItOutTestSuite.html">
 <persistable path="/CountItOutProject/reports/TEST-CountItOutTestSuite.html"/>
 </file>

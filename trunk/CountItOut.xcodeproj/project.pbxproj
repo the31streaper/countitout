@@ -237,7 +237,6 @@
 				4759DB5416923B2800DBB18D /* QuartzCore.framework */,
 				4759DB5216923B1700DBB18D /* libMonkeyTalk-1.0.30.a */,
 				9F87EE8F168E148B00D6CABB /* Default-568h@2x.png */,
-				9F04977C168901FB00136753 /* Frank */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -251,6 +250,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9F04977C168901FB00136753 /* Frank */,
 				28A0AAE50D9B0CCF005BE974 /* CountItOut_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
