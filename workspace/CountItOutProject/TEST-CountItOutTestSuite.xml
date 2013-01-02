@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite name="CountItOutTestSuite" tests="4" suites="0" errors="0" failures="0" skipped="0" time="29.489">
 	<testcase name="InitialView.mt" time="2.077" />
 	<testcase name="CountUpBasic.mt" time="8.369" />
 	<testcase name="AnotherTest.mt" time="9.776" />
 	<testcase name="CountDownBasic.mt" time="9.267" />
+=======
+<testsuite name="CountItOutTestSuite" tests="9" suites="0" errors="0" failures="0" skipped="0" time="77.474">
+	<testcase name="InitialView.mt" time="2.078" />
+	<testcase name="CountUpBasic.mt" time="19.013" />
+	<testcase name="AnotherTest.mt" time="9.759" />
+	<testcase name="CountDownBasic.mt" time="9.262" />
+	<testcase name="FinalView.mt" time="5.086" />
+	<testcase name="DecrementTest.mt" time="9.668" />
+	<testcase name="DeletesTest.mt" time="2.566" />
+	<testcase name="TwoCounterOneGroup.mt" time="17.997" />
+	<testcase name="InitialView.mt" time="2.045" />
+>>>>>>> New Tests
 </testsuite>
