@@ -1,0 +1,5 @@
+INDEX VERSION 1.122+/Users/the31streaper/countitout/workspace/CountItOutProject/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+52947443.index
+3730069083.index
+4283831159.index
+4130486046.index

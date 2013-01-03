@@ -1,0 +1,166 @@
+Table "Empty list" Select CountUp
+Input "Group Name" Tap
+Input "Group Name" EnterText Stuff
+Input "Counter Name" Tap
+Input "Counter Name" EnterText Bob
+Input "Max Value" Tap 
+Input "Max Value" 250
+Input Increment Tap 
+Input Increment EnterText 5
+Button Save Tap
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Zero Counts"
+Table "Empty list" SelectIndex 2
+Button Done Tap
+Button Edit Tap
+Button Add Tap
+Table "Empty list" Select CountDown
+Input "Group Name" EnterText "Down Bob"
+Input "Counter Name" Tap
+Input "Counter Name" EnterText "Bob Stuff"
+Input "Starting Value" EnterText 200
+Input Decrement EnterText 4 enter
+Button Save Tap
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1 2
+Table "Empty list" Select Bob
+Table "Empty list" SelectIndex 1 2
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Bob Stuff"
+Table "Empty list" SelectIndex 1
+Table "Empty list" Select "Zero Counts"
+Table "Empty list" SelectIndex 2
